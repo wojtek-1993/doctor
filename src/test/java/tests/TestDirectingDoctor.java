@@ -13,8 +13,7 @@ public class TestDirectingDoctor extends TestBase {
         institutionPage.selectInstitutionClick();
         institutionPage.selectDirectingDoctorClick();
         directingDoctorPage.createDoctorDepartmentClick();
-        doctorDepartmentPage.fillInDoctorDepartmentForm("***", "***", "***", "***",
-"***");
+        doctorDepartmentPage.fillInDoctorDepartmentForm("***", "***", "***", "***","***");
         doctorDepartmentPage.addButtonClick();
 
         String url = "http://localhost/***/***.php?";
